@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t;
+	cin>>t;
+	while(t-->0)
+	{
+	    long long n;
+	    int d,l;
+	    cin>>n;
+	    l=n%10;
+	    while(n>0)
+	    {
+	        d=n%10;
+	        n=n/10;
+	    }
+	    cout<<(l+d)<<endl;;
+	}
+	return 0;
+}
+
